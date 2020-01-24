@@ -34,8 +34,8 @@
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
-            <div class="phone">
-              <a href="tel:+74951234567">
+            <div class=' phone  btn open-modal' data-modal="#modal1">
+              <a href="#">
                 <img src="../img/phone.png" alt="заказать обратный звонок"/>
                 +7(495) 123 45 67
               </a>
@@ -53,11 +53,11 @@
                 <li><a href="#">Магазинам пчеловодства</a></li>
                 <li><a href="#">Новости </a></li>
                 <li><a href="#">Контакты</a></li>
-                <div class="burger-close"><img src="../img/close.png"></div>
+                <li class="burger-close"><img src="../img/close.png" alt="закрыть меню"></li>
               </ul>
               
               <div class="burger-open">
-                <img src="../img/burger.png">
+                <img src="../img/burger.png" alt="открыть меню">
               </div>
             </nav>
           </div>
@@ -65,14 +65,14 @@
       </div>
       <div class="container-fluid">
         <div class="row">
-          <img src="../img/fishing-banner.png" class="header-banner" />
+          <a href="#" class="header-banner"><img src="../img/fishing-banner.png"  alt="баннер"/></a>
         </div>
       </div>
     </header>
     <section class="section-1">
       <div class="container">
         <div class="row">
-          <h2>Выберите свое хобби</h2>
+          <div class="col-12"><h2>Выберите свое хобби</h2></div>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6">
@@ -80,7 +80,7 @@
               <a href="#">
                 <img src="../img/b1.png" alt="изображение хобби"/>
                 <div>346 охотохозяйств</div>
-                <button>Перейти в каталог</button>
+                <button type="button">Перейти в каталог</button>
               </a>
             </div>
           </div>
@@ -89,7 +89,7 @@
               <a href="#">
                 <img src="../img/b2.png" alt="изображение хобби" />
                 <div>211 рыболовных баз</div>
-                <button>Перейти в каталог</button>
+                <button type="button">Перейти в каталог</button>
               </a>
             </div>
           </div>
@@ -98,7 +98,7 @@
               <a href="#">
                 <img src="../img/b3.png" alt="изображение хобби"/>
                 <div>417 магазинов</div>
-                <button>Перейти в каталог</button>
+                <button type="button">Перейти в каталог</button>
               </a>
             </div>
           </div>
@@ -107,7 +107,7 @@
     </section>
     <section class="section-2">
       <div class="container">
-        <div class="row"><h2>О нашем портале</h2></div>
+        <div class="row"><div class="col-12"><h2>О нашем портале</h2></div></div>
         <div class="row">
           <div class="col-lg-6">
             <p>
@@ -138,15 +138,27 @@
     <section class="section-3">
       <div class="container">
         <div class="row">
-          <h2>Подборка полезный статей по тематикам</h2>
+          <div class="col-12"><h2>Подборка полезный статей по тематикам</h2></div>
         </div>
         <div class="row">
-          <div class="thema-change">
-            <ul>
-              <li><a href="#">Охота</a></li>
-              <li><a href="#" class="active"> Рыбалка </a></li>
-              <li><a href="#"> Пчеловодство</a></li>
-            </ul>
+          <div class="col-12">
+              <div class="tabs">
+                  <div class="tab">
+                   <input type="radio" id="tab1" name="tab-group" checked class="tab-input">
+                   <label for="tab1" class="tab-title">Охота</label> 
+                   
+                  </div> 
+                  <div class="tab active">
+                   <input type="radio" id="tab2" name="tab-group" class="tab-input">
+                   <label for="tab2" class="tab-title"> Рыбалка</label> 
+                   
+                  </div>
+                  <div class="tab">
+                   <input type="radio" id="tab3" name="tab-group" class="tab-input">
+                   <label for="tab3" class="tab-title">Пчеловодство</label> 
+                   
+                  </div> 
+              </div>
           </div>
         </div>
         <div class="row">
@@ -184,66 +196,63 @@
                       </div>
                       <div class="acrticle-action">
                         <div>
-                          <a href="#"><img src="../img/sprite-1.png"alt="сердце"/></a>
+                          <a href="#" class="heart"></a>
                         </div>
                         <div>
-                          <a href="#">
-                            <img src="../img/sprite-1.png" class="plus" alt="добавить"/>
-                          </a>
+                          <a href="#" class="plus"></a>
                         </div>
-                        <div><img src="../img/sprite-1.png" class="burger" alt="иконка"/></div>
+                        <div class="burger"></div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-          <div class="col-lg-4 col-md-6">
-              <div class="block-acticle">
-                <a class="acticle-img" href="#">
-                  <img src="../img/b4.png" alt="изображение статьи"/>
-                </a>
-                <div class="acticle-wrap">
-                  <div class="acticle-name">
-                    <a class="name" href="#">Первый медведь: охота со стога</a>
-                    <div class="autor">
-                      <ul>
-                        <li>website</li>
-                        <li>15.01.2020</li>
-                        <li>Autor name</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="acticle-about">
-                    <p>
-                      Вскоре мы сидели под стожком сена на закрайке колхозного
-                      поля. Кругом простор, звенели птички, стрекотали кузнечики,
-                      легкий ветерок волнами гладил поспевающий овес, разгоняя
-                      комаров.
-                    </p>
-                  </div>
-                  <div class="acticle-avatar">
-                    <img src="../img/avatar.png" alt="аватар"/>
-                  </div>
-                  <div class="article-bot">
-                    <div class="acticle-num">
-                      <div>Публикация №1</div>
-                      <a href="#">#Likes</a>
-                    </div>
-                    <div class="acrticle-action">
-                      <div>
-                        <a href="#"><img src="../img/sprite-1.png"alt="сердце"/></a>
+              <div class="col-lg-4 col-md-6">
+                  <div class="block-acticle">
+                    <a class="acticle-img" href="#">
+                      <img src="../img/b4.png" alt="изображение статьи"/>
+                    </a>
+                    <div class="acticle-wrap">
+                      <div class="acticle-name">
+                        <a class="name" href="#">Первый медведь: охота со стога</a>
+                        <div class="autor">
+                          <ul>
+                            <li>website</li>
+                            <li>15.01.2020</li>
+                            <li>Autor name</li>
+                          </ul>
+                        </div>
                       </div>
-                      <div>
-                        <a href="#">
-                          <img src="../img/sprite-1.png" class="plus" alt="добавить"/>
-                        </a>
+                      <div class="acticle-about">
+                        <p>
+                          Вскоре мы сидели под стожком сена на закрайке колхозного
+                          поля. Кругом простор, звенели птички, стрекотали кузнечики,
+                          легкий ветерок волнами гладил поспевающий овес, разгоняя
+                          комаров.
+                        </p>
                       </div>
-                      <div><img src="../img/sprite-1.png" class="burger" alt="иконка"/></div>
+                      <div class="acticle-avatar">
+                        <img src="../img/avatar.png" alt="аватар"/>
+                      </div>
+                      <div class="article-bot">
+                        <div class="acticle-num">
+                          <div>Публикация №1</div>
+                          <a href="#">#Likes</a>
+                        </div>
+                        <div class="acrticle-action">
+                          <div>
+                            <a href="#" class="heart"></a>
+                          </div>
+                          <div>
+                            <a href="#" class="plus"></a>
+                          </div>
+                          <div class="burger"></div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
+         
           <div class="col-lg-4 col-md-6">
             <div class="block-acticle">
               <a class="acticle-img" href="#">
@@ -278,14 +287,12 @@
                   </div>
                   <div class="acrticle-action">
                     <div>
-                      <a href="#"><img src="../img/sprite-1.png"alt="сердце"/></a>
+                      <a href="#" class="heart"></a>
                     </div>
                     <div>
-                      <a href="#">
-                        <img src="../img/sprite-1.png" class="plus" alt="добавить"/>
-                      </a>
+                      <a href="#" class="plus"></a>
                     </div>
-                    <div><img src="../img/sprite-1.png" class="burger" alt="иконка"/></div>
+                    <div class="burger"></div>
                   </div>
                 </div>
               </div>
@@ -326,10 +333,10 @@
           <div class="col-xl-2 col-lg-3">
             <div class="social">
               <ul>
-                <li><a href="#"><img src="../img/sprite-2.png" class="soc-fb" alt="фейсбук"></a></li>
-                <li><a href="#"><img src="../img/sprite-2.png" class="soc-tw" alt="твитер"></a></li>
-                <li><a href="#"><img src="../img/sprite-2.png" class="soc-in" alt="инстаграм"></a></li>
-                <li><a href="#"><img src="../img/sprite-2.png" class="soc-vk" alt="вконтакте"></a></li>
+                <li><a href="#" class="soc-fb"></a></li>
+                <li><a href="#" class="soc-tw"></a></li>
+                <li><a href="#" class="soc-in"></a></li>
+                <li><a href="#" class="soc-vk"></a></li>
               </ul>
             </div>
           </div>
@@ -337,5 +344,13 @@
       </div>
     </footer>
   </body>
+  <div class='modal' id='modal1'>
+      <form class='content'>
+        <h1 class='title'>Перезвоните мне</h1>
+        <input type="text" name="name" class="name" placeholder="Введите ваше имя" required>
+        <input type="text" name="phone" placeholder="Введите ваш телефон" required>
+        <button type="submit" class='btn close-modal' data-modal="#modal1" href="#">Отправить</button>
+      </form>	
+    </div>
   <script src="../js/main.js"></script>
 </html>
