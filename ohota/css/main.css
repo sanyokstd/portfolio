@@ -3957,6 +3957,66 @@ h2 {
     background-color: #9f876f;
 }
 
+/*табы*/
+.tab-title {
+    color: #877e75;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.tabs {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.tab {
+    margin: 0 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.tabs .active {
+    color: #252525;
+    border-top: 3px solid #f5a34e;
+    border-bottom: 3px solid #f5a34e;
+}
+
+.tabs .active label {
+    color: #252525;
+}
+
+.tabs input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.tab:hover label {
+    color: #252525;
+    cursor: pointer;
+}
+
 /*footer*/
 #footer {
     background-color: #877e75;
@@ -4282,7 +4342,7 @@ h2 {
     }
 
     .block-acticle {
-        width: 300px;
+        width: 290px;
     }
 
     .thema-change ul li a {
@@ -4299,6 +4359,10 @@ h2 {
 
     #footer .nav ul li a {
         font-size: 12px;
+    }
+
+    .tab-title {
+        font-size: 14px;
     }
 }
 
@@ -4425,51 +4489,4 @@ h2 {
     margin: auto;
     -webkit-border-radius: 10px;
     border-radius: 10px;
-}
-
-/*табы*/
-.tab-title {
-    color: #877e75;
-    border-top: 3px solid transparent;
-    border-bottom: 3px solid transparent;
-    padding: 10px 0;
-    font-weight: 600;
-    font-size: 18px;
-}
-
-.tabs {
-    margin-top: 30px;
-    margin-bottom: 60px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-
-.tab {
-    margin: 0 20px;
-}
-
-.tabs .active {
-    color: #252525;
-    border-top: 3px solid #f5a34e;
-    border-bottom: 3px solid #f5a34e;
-}
-
-.tabs .active label {
-    color: #252525;
-}
-
-.tabs input {
-    opacity: 0;
-    width: 0;
-}
-
-.tab:hover label {
-    color: #252525;
-    cursor: pointer;
 }
