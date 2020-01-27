@@ -42,7 +42,7 @@ $(document).ready(function() {
     });
   });
 
-  $(".close-modal").on("click", function(e) {
+  $(".close-modal").on("click", function closeModal(e) {
     e.preventDefault();
     e.stopImmediatePropagation;
 
@@ -60,5 +60,27 @@ $(document).ready(function() {
   $(".tab").click(function() {
     $(".tab").removeClass("active");
     $(this).addClass("active");
+    tabFade();
   });
+  function tabFade() {
+    var tabName = $(".tab.active")
+      .find("input")
+      .attr("id");
+
+    if (tabName == "tab1") {
+      $(".tab-content").css("display", "none");
+
+      $(".tab-1").show(200);
+    }
+    if (tabName == "tab2") {
+      $(".tab-content").css("display", "none");
+
+      $(".tab-2").show(200);
+    }
+    if (tabName == "tab3") {
+      $(".tab-content").css("display", "none");
+      $(".tab-3").show(200);
+    }
+  }
+  tabFade();
 });

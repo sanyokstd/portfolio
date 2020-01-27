@@ -3597,6 +3597,14 @@ body {
     font-weight: 500;
 }
 
+.phone:hover {
+    cursor: pointer;
+}
+
+.phone:hover a {
+    text-decoration: underline;
+}
+
 .phone a {
     font-weight: bold;
     font-size: 24px;
@@ -3728,6 +3736,14 @@ h2 {
 }
 
 /*section-3*/
+.min-tab {
+    min-height: 545px;
+}
+
+.section-3 {
+    min-height: 960px;
+}
+
 .thema-change {
     margin: auto;
 }
@@ -4455,6 +4471,15 @@ h2 {
     -webkit-transition: 0.35s ease-in-out;
     -o-transition: 0.35s ease-in-out;
     transition: 0.35s ease-in-out;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .overlay .modal .title {
@@ -4489,4 +4514,17 @@ h2 {
     margin: auto;
     -webkit-border-radius: 10px;
     border-radius: 10px;
+}
+
+.overlay .modal-close {
+    width: 21px;
+    position: absolute;
+    right: -45px;
+    top: -32px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.tab-content {
+    display: none;
 }
