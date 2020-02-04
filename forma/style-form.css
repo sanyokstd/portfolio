@@ -66,3 +66,13 @@
   border-color: #4c8c02;
   background-color: #4c8c02;
 }
+.form-text div:first-child {
+  text-align: center;
+  font: 600 16px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 10px;
+}
+.form-text div:last-child {
+  text-align: center;
+  font: 400 14px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 20px;
+}
