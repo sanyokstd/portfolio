@@ -336,6 +336,13 @@ body {
     margin-bottom: 50px;
 }
 
+.main-section.team-section {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
+}
+
 @media (max-width: 1200px) {
     .team_item {
         width: -webkit-calc(100% / 2 - 120px);
