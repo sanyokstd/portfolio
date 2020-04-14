@@ -6,34 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    
   </head>
   <body>
     <div class="main">
-      <header class="header">
-        <div class="logo">
-          <a href="">
-            <img src="../img/logo.png" />
-          </a>
-        </div>
+      <header class="header" id="menu">
+          <div class="logo">
+            <a href="">
+              <img src="../img/logo.png" />
+            </a>
+          </div>
+  
+          <nav class="nav">
+            <ul>
+              <li class="active"><a href="">Главная</a></li>
+              <li><a href="">Для бизнеса</a></li>
+              <li><a href="">Для частных клиентов</a></li>
+              <li><a href="">О компании</a></li>
+              <li><a href="">Портфолио</a></li>
+              <li><a href="">Контакты</a></li>
+            </ul>
+          </nav>
+            
+          <div class="header_info">
+            <div class="data">10:00 - 19:00 пн-пт</div>
+            <div class="phone"><a href="tel:+74956644235">+7 495 664 42 35</a></div>
+          </div>
+          <div class="nav-mobile">
+              <nav class="nav">
+                  <ul>
+                    <li class="active"><a>Главная</a></li>
+                    <li><a>Для бизнеса</a></li>
+                    <li><a>Для частных клиентов</a></li>
+                    <li><a>О компании</a></li>
+                    <li><a>Портфолио</a></li>
+                    <li><a>Контакты</a></li>
+                  </ul>
+                </nav>
+        
+                <div class="header_info">
+                  <div class="data">10:00 - 19:00 пн-пт</div>
+                  <div class="phone"><a href="tel:+74956644235">+7 495 664 42 35</a></div>
+                </div>
+          </div>
+          <div class="burger-menu">
+            <div class="burger-wrap">
+              <span class="burger-item1"></span>
+              <span class="burger-item2"></span>
+              <span class="burger-item3"></span>
+            </div>
+          </div>
+        </header>
+  
+        
+      
 
-        <nav class="nav">
-          <ul>
-            <li class="active"><a>Главная</a></li>
-            <li><a>Для бизнеса</a></li>
-            <li><a>Для частных клиентов</a></li>
-            <li><a>О компании</a></li>
-            <li><a>Портфолио</a></li>
-            <li><a>Контакты</a></li>
-          </ul>
-        </nav>
-
-        <div class="header_info">
-          <div class="data">10:00 - 19:00 пн-пт</div>
-          <div class="phone">+7 495 664 42 35</div>
-        </div>
-      </header>
-
-      <div class="section-1">
+      <div class="section-1 " >
+          <div class="video-fullscreen">
+              <video  autoplay="true" loop="" muted="">
+                  <source src="../video/Video first screen.mp4" type="video/mp4">
+              </video>
+          </div>
         <div class="wrap-fluid section-1-top">
           <div class="dec-fon-block"></div>
           <div class="wrap">
@@ -54,9 +87,11 @@
                   пространство для работы и жизни наших клиентов, делая его
                   комфортнее и безопаснее.
                 </div>
-                <div class="button">
+                <div class="button button-arrow myLinkModal">
                   <span>Заказать консультацию</span
-                  ><img src="../img/button.png" />
+                  ><div class="arrow-img">
+                    <div></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -67,7 +102,7 @@
           </div>
           <div class="dec-fon-block"></div>
         </div>
-        <div class="wrap-fluid ">
+        <div class="wrap-fluid  section-1-bot">
           <div class="dec-fon-block"></div>
           <div class="wrap">
             <div class="section1-mid-back bottom">
@@ -78,7 +113,7 @@
               <div class="section-1-bottom">
                 <span class="num">10</span>
                 <span class="about"
-                  >лет на рынке кондиционирования,<br />
+                  >лет на рынке кондиционирования,
                   вентиляции и отопления</span
                 >
               </div>
@@ -87,7 +122,7 @@
               <div class="section-1-bottom border">
                 <span class="num">2000</span>
                 <span class="about"
-                  >исполненных договоров<br />
+                  >исполненных договоров
                   в B2B и B2C сегментах</span
                 >
               </div>
@@ -97,32 +132,10 @@
         </div>
       </div>
 
-      <header class="header">
-        <div class="logo">
-          <a href="">
-            <img src="../img/logo.png" />
-          </a>
-        </div>
+      
 
-        <nav class="nav">
-          <ul>
-            <li class="active"><a>Главная</a></li>
-            <li><a>Для бизнеса</a></li>
-            <li><a>Для частных клиентов</a></li>
-            <li><a>О компании</a></li>
-            <li><a>Портфолио</a></li>
-            <li><a>Контакты</a></li>
-          </ul>
-        </nav>
-
-        <div class="header_info">
-          <div class="data">10:00 - 19:00 пн-пт</div>
-          <div class="phone">+7 495 664 42 35</div>
-        </div>
-      </header>
-
-      <div class="section-2">
-        <div class="wrap-fluid">
+      <div class="section-2 bg bg-1">
+        <div class="wrap-fluid section-2-top">
           <div class="dec-fon-block grey"></div>
           <div class="wrap">
             <div class="item50">
@@ -135,7 +148,7 @@
           </div>
           <div class="dec-fon-block grey sec2-border-top"></div>
         </div>
-        <div class="wrap-fluid">
+        <div class="wrap-fluid section-2-bot">
           <div class="dec-fon-block"></div>
           <div class="wrap">
             <div class="item50">
@@ -143,19 +156,23 @@
                 <div class="acrordeon-wrap active" id="for-bissnes">
                   <div class="acordeon-item acordeon-item-1">
                     <div class="acordeon-item-title">
-                      <span>Кондиционирование</span
-                      ><img src="../img/button.png" />
+                      <span>Кондиционирование</span> 
+                      <div class="arrow-img">
+                          <div></div>
+                        </div>
                     </div>
                     <div class="acordeon-item-content">
-                      <a href="">Монтаж отопления</a>
-                      <a href="">Обслуживания отопления</a>
-                      <a href="">Проектирование</a>
-                      <a href="">Ремон отопления</a>
+                      <a href="#">Монтаж отопления</a>
+                      <a href="#">Обслуживания отопления</a>
+                      <a href="#">Проектирование</a>
+                      <a href="#">Ремон отопления</a>
                     </div>
                   </div>
                   <div class="acordeon-item acordeon-item-2">
                     <div class="acordeon-item-title">
-                      <span>Вентиляция</span><img src="../img/button.png" />
+                      <span>Вентиляция</span> <div class="arrow-img">
+                          <div></div>
+                        </div>
                     </div>
                     <div class="acordeon-item-content">
                       <a href="">Монтаж отопления</a>
@@ -164,10 +181,12 @@
                       <a href="">Ремон отопления</a>
                     </div>
                   </div>
-                  <div class="acordeon-item acordeon-item-3 active">
+                  <div class="acordeon-item acordeon-item-3">
                     <div class="acordeon-item-title">
-                      <span>Отопление</span><img src="../img/button.png" />
-                      <img class="black-arrow" src="../img/arrow-black.png" />
+                      <span>Отопление</span>
+                      <div class="arrow-img">
+                          <div></div>
+                        </div>
                     </div>
                     <div class="acordeon-item-content">
                       <a href="">Монтаж отопления</a>
@@ -179,7 +198,9 @@
                   <div class="acordeon-item acordeon-item-4">
                     <div class="acordeon-item-title">
                       <span>Автоматизация и диспетчеризация</span
-                      ><img src="../img/button.png" />
+                      > <div class="arrow-img">
+                          <div></div>
+                        </div>
                     </div>
                     <div class="acordeon-item-content">
                       <a href="">Монтаж отопления</a>
@@ -189,7 +210,63 @@
                     </div>
                   </div>
                 </div>
-                <div class="acrordeon-wrap" id="for-client"></div>
+                <div class="acrordeon-wrap" id="for-client">
+                    <div class="acordeon-item acordeon-item-1 ">
+                        <div class="acordeon-item-title">
+                          <span>Кондиционирование</span
+                          > <div class="arrow-img">
+                              <div></div>
+                            </div>
+                        </div>
+                        <div class="acordeon-item-content">
+                          <a href="#">Монтаж отопления</a>
+                          <a href="#">Обслуживания отопления</a>
+                          <a href="#">Проектирование</a>
+                          <a href="#">Ремон отопления</a>
+                        </div>
+                      </div>
+                      <div class="acordeon-item acordeon-item-2">
+                        <div class="acordeon-item-title">
+                          <span>Вентиляция</span> <div class="arrow-img">
+                              <div></div>
+                            </div>
+                        </div>
+                        <div class="acordeon-item-content">
+                          <a href="#">Монтаж отопления</a>
+                          <a href="">Обслуживания отопления</a>
+                          <a href="">Проектирование</a>
+                          <a href="">Ремон отопления</a>
+                        </div>
+                      </div>
+                      <div class="acordeon-item acordeon-item-3">
+                        <div class="acordeon-item-title">
+                          <span>Отопление</span>
+                          <div class="arrow-img">
+                              <div></div>
+                            </div>
+                        </div>
+                        <div class="acordeon-item-content">
+                          <a href="">Монтаж отопления</a>
+                          <a href="">Обслуживания отопления</a>
+                          <a href="">Проектирование</a>
+                          <a href="">Ремон отопления</a>
+                        </div>
+                      </div>
+                      <div class="acordeon-item acordeon-item-4">
+                        <div class="acordeon-item-title">
+                          <span>Автоматизация и диспетчеризация</span
+                          > <div class="arrow-img">
+                              <div></div>
+                            </div>
+                        </div>
+                        <div class="acordeon-item-content">
+                          <a href="">Монтаж отопления</a>
+                          <a href="">Обслуживания отопления</a>
+                          <a href="">Проектирование</a>
+                          <a href="">Ремон отопления</a>
+                        </div>
+                      </div>
+                </div>
               </div>
             </div>
             <div class="item50">
@@ -203,31 +280,9 @@
         </div>
       </div>
 
-      <header class="header">
-        <div class="logo">
-          <a href="">
-            <img src="../img/logo.png" />
-          </a>
-        </div>
+      
 
-        <nav class="nav">
-          <ul>
-            <li class="active"><a>Главная</a></li>
-            <li><a>Для бизнеса</a></li>
-            <li><a>Для частных клиентов</a></li>
-            <li><a>О компании</a></li>
-            <li><a>Портфолио</a></li>
-            <li><a>Контакты</a></li>
-          </ul>
-        </nav>
-
-        <div class="header_info">
-          <div class="data">10:00 - 19:00 пн-пт</div>
-          <div class="phone">+7 495 664 42 35</div>
-        </div>
-      </header>
-
-      <div class="section-3">
+      <div class="section-3 bg bg-2">
         <div class="wrap-fluid">
           <div class="dec-fon-block grey"></div>
           <div class="wrap">
@@ -237,22 +292,24 @@
                   <div class="title">Компания</div>
                   <h1>О нас</h1>
                 </div>
+               
                 <div class="sec3-bot">
-                  <div class="num">789</div>
+                  <div class="num" data-num="785">0</div>
+                  <div id="example"></div>
                   <div class="text">
                     Цифра про ваши мощности кондиционирования, вентиляции и
                     отопления.
                   </div>
                 </div>
                 <div class="sec3-bot">
-                    <div class="num">789</div>
+                    <div class="num" data-num="789">0</div>
                     <div class="text">
                       Цифра про ваши мощности кондиционирования, вентиляции и
                       отопления.
                     </div>
                   </div>
                   <div class="sec3-bot">
-                      <div class="num">789</div>
+                      <div class="num" data-num="789">0</div>
                       <div class="text">
                         Цифра про ваши мощности кондиционирования, вентиляции и
                         отопления.
@@ -288,7 +345,7 @@
                   Для нас нет невыполнимых задач. Мы – Art Climate.
               </p>
               <a href="">
-                <span>Подробнее о нас</span><img src="../img/button.png" />
+                <span>Подробнее о нас</span><img src="../img/button.png" alt="картинка"/>
               </a>
             </div>
             </div>
@@ -296,31 +353,9 @@
           <div class="dec-fon-block grey sec2-border-top"></div>
         </div>
       </div>
-      <header class="header">
-          <div class="logo">
-            <a href="">
-              <img src="../img/logo.png" />
-            </a>
-          </div>
-  
-          <nav class="nav">
-            <ul>
-              <li class="active"><a>Главная</a></li>
-              <li><a>Для бизнеса</a></li>
-              <li><a>Для частных клиентов</a></li>
-              <li><a>О компании</a></li>
-              <li><a>Портфолио</a></li>
-              <li><a>Контакты</a></li>
-            </ul>
-          </nav>
-  
-          <div class="header_info">
-            <div class="data">10:00 - 19:00 пн-пт</div>
-            <div class="phone">+7 495 664 42 35</div>
-          </div>
-        </header>
+     
 
-        <div class="section-4">
+        <div class="section-4 bg bg-3">
           <div class="wrap-fluid">
               <div class="dec-fon-block left"></div>
               <div class="wrap">
@@ -339,41 +374,20 @@
               <div class="dec-fon-block left"></div>
              <div class="wrap">
                
-                <div class="section-4-map">
-                    <div class="dec-fon-block left"></div>
-                    <img src='../img/map.png'>
-                    <div class="sub-map">Красноярский край</div>
+                <div class="map">
+                    <div class="overflow">
+                      <div id="vmap">
+                      </div>
+                    </div>
                   </div>
              </div>
              <div class="dec-fon-block grey right"></div>
           </div>
         </div>
 
-        <header class="header">
-            <div class="logo">
-              <a href="">
-                <img src="../img/logo.png" />
-              </a>
-            </div>
-    
-            <nav class="nav">
-              <ul>
-                <li class="active"><a>Главная</a></li>
-                <li><a>Для бизнеса</a></li>
-                <li><a>Для частных клиентов</a></li>
-                <li><a>О компании</a></li>
-                <li><a>Портфолио</a></li>
-                <li><a>Контакты</a></li>
-              </ul>
-            </nav>
-    
-            <div class="header_info">
-              <div class="data">10:00 - 19:00 пн-пт</div>
-              <div class="phone">+7 495 664 42 35</div>
-            </div>
-          </header>
+         
 
-          <div class="section-5">
+          <div class="section-5 bg bg-4">
             <div class="wrap-fluid"> 
                 <div class="dec-fon-block left"></div>
               <div class="wrap">
@@ -384,20 +398,20 @@
                           <h1>Контакты</h1>
                       </div>
                       <div class="sec5-bot">
-                        <div class="sect-bot-img"><img  src="../img/sec5-img1.png"></div>
+                        <div class="sect-bot-img"><img  src="../img/sec5-img1.png" alt="картинка"></div>
                         <div class="sec5-white">г. Москва, ул. Феодосийская д.1, к.11 </div>
                         <div class="sec5-grey">10:00 - 19:00 пн-пт</div>
-                        <a href="" class="link-on-map">Показать на карте</a>
+                        <a href="" class="link-on-map myLinkModal-map">Показать на карте</a>
                      
-                        <div class="sect-bot-img"><img src="../img/sec5-img2.png"></div>
+                        <div class="sect-bot-img"><img src="../img/sec5-img2.png" alt="картинка"></div>
                           <div class="sec5-grey">Консультируем по телефону:</div>
-                          <a href="" class="sec5-white">+7 903 122-99-66</a>
+                          <a href="tel:+79031229966" class="sec5-white bot-phone">+7 903 122-99-66</a>
                         </div>
                   </div>
                     
                 </div>
                 <div class="item50">
-                  <div id="contact-form">
+                  <div class="contact-form">
                       <form>
                       <div class="title">Оставьте заявку
                           на консультацию
@@ -406,9 +420,9 @@
                       <div class="form-input"><input type="text" placeholder="Имя"></div>
                       <div class="form-input"><input type="text" placeholder="Телефон"></div>
                       <button>Заказать консультацию</button>
-                      <p>Нажимая на кнопку, вы соглашаетесь на<br>
+                      <p>Нажимая на кнопку, вы соглашаетесь на
                           обработку ваших персональных данных.</p>
-                    </form>
+                   
                   </form>
                 </div>
                 
@@ -417,15 +431,44 @@
             </div>
             <div class="dec-fon-block"></div>
           </div>
-          <footer class="footer">
+          </div>
+          <div id="myModal">
+            <div class="contact-form">
+              <form>
+                <div class="title">Оставьте заявку
+                    на консультацию
+                    специалиста</div>
+              
+                <div class="form-input"><input type="text" placeholder="Имя"></div>
+                <div class="form-input"><input type="text" placeholder="Телефон"></div>
+                <button>Заказать консультацию</button>
+                <p>Нажимая на кнопку, вы соглашаетесь на
+                    обработку ваших персональных данных.</p>
+              </form>
+            </div>
+            <span id="myModal__close" class="close">
+              <div></div>
+              <div></div>
+            </span>
+          </div>
+          <div id="myModal-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2256.291282375457!2d37.570500215796805!3d55.56212701414941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414aadb7ec2c0b2b%3A0xf95796a8c9f8896e!2z0YPQuy4g0KTQtdC-0LTQvtGB0LjQudGB0LrQsNGPLCAxINC60L7RgNC_0YPRgSAxMSwg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDExNzIxNg!5e0!3m2!1sru!2sua!4v1586182434969!5m2!1sru!2sua" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <span id="myModal__close" class="close">
+              <div></div>
+              <div></div>
+            </span>
+          </div>
+          <div id="myOverlay"></div>
+          <footer class="footer " >
               <div class="wrap">
                 <div class="footer_copi">ООО «Арт Климат». Все права защищены. 2020 г.</div>
                 <div class="footer_polici"><a href="">Политика конфиденциальности</a></div>
                 <div class="footer_autor"><span>Разработка и дизайн</span><div class="footer_logo">R</div></div>
               </div>
             </footer>
-    </div>
+    
 
+</div>
     <script src="../js/main.js"></script>
   </body>
 </html>
